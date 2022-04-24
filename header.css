@@ -1,0 +1,90 @@
+.main-nav,
+.sub-nav{
+    display: flex;
+}
+
+.main-nav{
+    display: flex;
+    background-color: #44b;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+       
+}
+
+
+
+.horizontal.nav-list{
+    display:flex;
+}
+
+.short-width{
+     display:flex;
+
+}
+
+@media (min-width: 769px) {
+    .horizontal.nav-list.short-width{
+        display: none;
+    }
+
+
+        .horizontal.nav-list.full-width{
+        display: flex;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .horizontal.nav-list.short-width{
+    display: flex;
+}
+.horizontal.nav-list.full-width{
+    display: none;
+}
+}
+
+.nav-list
+{
+    display: flex;
+    flex-direction: row;
+    padding: 8;
+    list-style: none;
+   
+}
+
+.horizontal.nav-list a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-right: 1px solid white;
+}
+
+.horizontal.nav-list li:last-of-type a{
+    border-right: none;
+}
+
+
+.search-form{
+    display: flex;
+    flex-grow: 1;
+    margin: 1rem;}
+
+.search-form input{
+flex: 1;
+}
+
+.company-name{
+    font-family:fantasy;
+    font-size: xx-large;
+    color: #44b;
+    margin: 0.5rem
+}
+
+.credit-offer{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color:red;
+    padding: 0.5rem;
+    flex-shrink: 0;
+    margin: 1rem;}

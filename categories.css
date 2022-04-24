@@ -1,0 +1,47 @@
+
+.categories {
+    display: flex;
+flex-basis: 256px;
+flex-direction: column;
+}
+
+main{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+main > nav {
+    flex: 0 0 200px;
+    background: #ccc;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+main > nav a {
+    text-transform: uppercase;
+    color: white;
+    background-color: #44b;
+    margin-bottom: 10;
+    font-size: medium;
+    font-family: 'dosis';
+    text-align: center;
+    text-decoration: none;
+    width: 200;
+    height: 60;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 1.5em 1em;}
+
+
+
+a:hover{
+    box-shadow: 0 2px 5px -2px black;}
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    flex-direction: row;
+     background-color: #255;
+     padding: 18px;
+     font-family: dosis;
+     justify-content: center;
+}
+
+section 
+{margin-right:80px ;
+    display: flex;
+    flex-direction:column
+}
+
+h2
+{color: white;
+    border-bottom: white solid 1px;
+    padding: 5px;
+    margin: 5px;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+a {
+    color: white;
+    text-decoration:none;
+    font-style: bold;
+    margin: bottom 10px;
+    font-size: small;
+    
+   
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: 9px;
+
+}
